@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* через звездочку мы задаем нулевые значения по дефолту  */
+.main{
+    background-color: cornflowerblue;
+    /* Тут мы задали цвет заднего фона всей странице  */
+    padding-top: 100px;
+    /* Этой командой мы задали отступ сверху от самой страницы сайта 
+    до следующего контейнера с контентом */
+    height: 100vh;
+
+}
+
+.container{
+    background-color: white;
+    /* Задали цвет фона нашего контейнера с контентом */
+    width: 1000px;
+    margin: 0 auto;
+    /* Определяем отступы */
+
+}
+.header{
+    border-bottom: 3px solid black;
+    padding: 10px 0;
+
+
+}
