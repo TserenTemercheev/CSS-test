@@ -10,7 +10,7 @@
     padding-top: 100px;
     /* Этой командой мы задали отступ сверху от самой страницы сайта 
     до следующего контейнера с контентом */
-    height: 100vh;
+    height: 120vh;
 
 }
 
@@ -24,7 +24,47 @@
 }
 .header{
     border-bottom: 3px solid black;
+    /* Начертили нижнюю часть рамки */
     padding: 10px 0;
+    /* Определяем отступы внутри контейнера внутри строчки header'a 
+    10px сверху-снизу, 0 - по бокам */
+}
 
+.list {
+display: flex;
+justify-content: space-around;
+}
 
+.list-item{
+list-style-type: none;
+/* Убрали точки напротив li'шек */
+font-family: 'Fjalla One', sans-serif;
+font-size: 20px;
+
+}
+.link{
+    text-decoration: none;
+}
+
+.news-header{
+    text-align: center;
+    margin: 50px auto;
+}
+.news-rate{
+    margin-left: 20px ;
+    
+}
+.news-block{
+    margin: 100px auto;
+}
+
+.paragraph {
+    margin-left: 30px;
+}
+.news {
+    margin-left: 10px;
+}
+
+.news-1{
+    text-decoration: none;
 }
